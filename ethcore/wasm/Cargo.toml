@@ -12,4 +12,4 @@ libc = "0.2"
 pwasm-utils = "0.2.2"
 vm = { path = "../vm" }
 ethcore-logger = { path = "../../logger" }
-wasmi = "0.2.1"
+wasmi = { git = "https://github.com/paritytech/wasmi.git", rev = "b7fff032645086fe09bca3ed4b22e1450450ff62" }
